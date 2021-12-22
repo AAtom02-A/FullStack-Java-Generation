@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css"/>
+    <title>Formularios</title>
+
+</head>
+<body>
+    <!-- Etiqueta para crear formularios -->
+    <form>
+        <div>
+            <input type="text"><!-- Para que el usuario interactue -->
+            <input type="date"><!-- Muestra la decha en formato // -->
+            <input type="search"><!-- Coloco un buscador -->
+            <input type="color"><!-- Muentra una cajita con color -->
+            <input type="password"><!-- Contraseñas -->
+            <input type="file"><!-- Poder subir un archivo -->
+            <input type="checkbox"><!-- Introdice un cuadrado que podemos seleccionar -->
+            <input type="radio">
+            <input type="submit"><!-- Aparece un boton de enviar  -->
+            <input type="button" value="Enviar"><!-- Coloca un boton vacio -->
+            <input type="">
+            <button>hola</button>
+        </div>
+        
+    </form>
+
+    <h1>Formularios</h1>
+    <form class="formulario">
+       <!--  <fieldset> --><!-- agrega un marco dentro de los elemntos, es mejor conocido como elemento de bloque.
+    Se puede usar para englobar campos de un formulario, se puede usar en logar de div. -->
+
+            <div >
+                <!-- label es una etiqueta y sirve para darle nombre al input -->
+                <label for="nombre">Nombre</label>
+                <input  class="clase_nombre "id="nombre" type="text" name="nombre" placeholder="Escribe tu nombre" required><!-- required requiere o campo
+                pbligatorio' -->
+                <!-- El atributo placeholder ayudar a describir -->
+                 </div>
+        
+        
+                <div class="apellid0"><label for="apellido">Apellido</label>
+                    <input type="text"  name="apellido" placeholder="Escribe tu Apellido nena" required>
+                </div>
+                
+                <div class="password">
+                        <label for="password">Password</label>
+                        <input  id="password" type="password" name="password" placeholder="Escribe tu password">
+                </div>
+               
+                <div class="correo">
+                    <label for="correo">Correo</label>
+                    <input id="correo" type="email" name="correo" placeholder="Escribe tu correo">
+                </div>
+
+                 <div class="enviar">
+                <input type="submit" >
+                </div>
+
+               
+    </form>
+
+    <form>
+
+                 <fieldset >
+                    <legend>Ingresa el numero</legend>
+                    <label for="numero">Numero</label>
+                    <input id="numero" type="number" name="numero" min="40" max="55"/>
+                    
+                    <label for="rango">Rango</label>
+                    <input id="rango" type="range" name="rango" min="30">
+                 </fieldset>
+    </form>
+</body>
+</html>
