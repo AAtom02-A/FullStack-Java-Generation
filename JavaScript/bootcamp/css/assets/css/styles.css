@@ -1,0 +1,34 @@
+
+.Encabezado{
+    font-size: 72px;/* Cambia tamaño de fuente */
+    color: cadetblue; /* Color cambia el color a las letras */
+    /* Medidas comunes: px, % em  */
+    background-color: salmon;/* Color de fondo */
+    text-align: center;/* Centrar texto */
+    text-transform: capitalize;/* text-transform: ; transforma el texto */
+}
+/* forma de agregar estilos por id, > especifidad */
+#texto{
+    color: blueviolet;
+    background-color: burlywood;
+    font-size: 24 ;
+    font-style: italic;
+}
+
+/* forma de agregar estilos por etiqueda, < especifidad */
+.texto{
+    color: tomato;
+    background-color: black;
+}
+ p{
+     color: white;
+     background-color: dimgray;
+ }
+
+ 
+ p{
+    color: yellow;
+    background-color: teal;
+}
+
+

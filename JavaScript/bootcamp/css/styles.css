@@ -1,0 +1,29 @@
+
+h1 {
+    font-size: 44px;
+    font-style: normal;
+}
+
+body{
+    background-color: green;
+
+}
+
+.texblanco{
+    color: white;
+    font-style: italic;
+}
+.amarillo{
+    color: rgba(216, 215, 159, 0.459);
+    font-style: normal;
+}
+.textAmarillo{
+    color: rgba(243, 113, 61, 0.836);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.rojo{
+    color: rgba(134, 5, 5, 0.938);
+
+}
