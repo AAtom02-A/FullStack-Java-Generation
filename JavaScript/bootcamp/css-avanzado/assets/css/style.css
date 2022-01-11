@@ -1,0 +1,18 @@
+/* forma 2 de agregar fuentes de google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Press+Start+2P&family=Roboto:ital,wght@1,100&family=Shizuru&family=Waterfall&display=swap');
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 40;
+    font-size: 40px; 
+}
+#f{
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 40;
+    font-size: 20px;
+}
+h3{/* forma de importar, es la segunda forma de agregar fuentes. */
+    font-family: 'Waterfall', cursive;
+    font-weight: 60;
+    font-size: 50px;
+}
