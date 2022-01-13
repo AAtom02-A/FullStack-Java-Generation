@@ -1,4 +1,4 @@
-
+//11/02/2022
 let titulo = document.getElementById("titulo");
 function getCambiarNombre(){
     let nombre = prompt("Introduce tu nombre");  
